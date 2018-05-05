@@ -11,9 +11,6 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
-    "rdlowrey/auryn": {
-        "version": "v1.4.2"
-    },
     "robmorgan/phinx": {
         "version": "0.9.2"
     },

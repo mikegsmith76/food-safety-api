@@ -33,6 +33,11 @@ class Nearby
         $this->serializer = $serializer;
     }
 
+    /**
+     * @param $post_code
+     * @param $distance
+     * @return Response
+     */
     public function dispatch($post_code, $distance) : Response
     {
         $arr_models = $this->repository->getByPostCodeWithinDistance($post_code, $distance);;

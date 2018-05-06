@@ -19,8 +19,6 @@ class Business extends MapSerializer
      */
     public function serialize(BusinessModel $model)
     {
-        print 'here';
-        exit;
         return json_encode(parent::serialize($model));
     }
 

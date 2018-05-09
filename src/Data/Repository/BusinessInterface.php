@@ -13,6 +13,12 @@ use \App\Data\Model\Business as BusinessModel;
 interface BusinessInterface
 {
     /**
+     * @param array $data
+     * @return mixed
+     */
+    public function create(array $data);
+
+    /**
      * @param $id
      * @return BusinessModel
      */
